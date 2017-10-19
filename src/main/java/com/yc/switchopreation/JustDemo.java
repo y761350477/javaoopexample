@@ -6,20 +6,20 @@ package com.yc.switchopreation;
 public class JustDemo {
     public static void main(String[] args) {
         //char grade = args[0].charAt(0);
-        String grade = "B";
+        int grade = 1;
 
         switch(grade)
         {
-            case "A" :
+            case 1 :
                 System.out.println("优秀");
                 break;
-            case "B" :
-            case "C" :
+            case 2 :
+            case 3 :
                 System.out.println("良好");
                 break;
-            case "D" :
+            case 4 :
                 System.out.println("及格");
-            case "F" :
+            case 5 :
                 System.out.println("你需要再努力努力");
                 break;
             default :

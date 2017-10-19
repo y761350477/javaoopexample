@@ -13,7 +13,7 @@ public class Test {
         File file = new File("C:\\Users\\YC\\Desktop\\备份\\嫌疑人.xls");
         List<List<Object>> lists = ReadExcel.readExcel(file);
         int i = 0, success = 0, error = 0;
-        List<SuBean> suBeanList = new ArrayList<>();
+        List<SuBean> suBeanList = new ArrayList<SuBean>();
         for (List<Object> list2 : lists) {
             SuBean suBean = new SuBean();
             if (i++ == 0) continue; //表头不读取

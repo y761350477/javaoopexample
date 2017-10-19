@@ -1,0 +1,6 @@
+思考：
+1、如何把jdbc的文件放到项目中，防止日后项目更改位置后jdbc的访问路径错误的情况发生；
+answer：static File file = new File("data");
+       	static String path = file.getAbsolutePath();
+       	path即为项目的绝对路径(动态获取项目的绝对路径，就算位置改变了，还是会获取改变后的绝对路径位置)；
+注意：SqLite的JDBC操作删除成功的返回结果是删除的数量；

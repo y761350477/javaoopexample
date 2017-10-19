@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BeanString {
     public static void main(String[] args) {
-        List<Str> strList = new ArrayList<>();
+        List<Str> strList = new ArrayList<Str>();
         Str str = new Str();
         str.setType("qq");
         str.setNum(111);

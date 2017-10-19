@@ -17,7 +17,7 @@ public class RegSplitString {
         String dn = "com|cn|org|com.cn|xyz|net|gg|gov.cn|love";
         Pattern p = Pattern.compile("[\\w[.-]]+@[\\w[.-]]+\\.(" + dn + ")"); //邮箱验证
         Matcher m = p.matcher(str);
-        List<String> emailList = new ArrayList<>();
+        List<String> emailList = new ArrayList<String >();
         while (m.find()) {
             //update  2016-1-21 10:03:45
             //去除包涵连续两个点的邮箱

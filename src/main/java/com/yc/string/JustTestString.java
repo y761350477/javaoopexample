@@ -7,7 +7,7 @@ public class JustTestString {
     public static void main(String[] args) {
         String strInfo = "袁青海 &lt;13928231359@163.com.cn&gt;;\"86704841@qq.com\" &lt;86704841@qq.com&gt;@126.com;@126.com,@152.com;@163.com;@163.com;@163.com";
         String[] strData = strInfo.split("@");
-        List<String> getStr = new ArrayList<>();
+        List<String> getStr = new ArrayList<String >();
         List<Str> beanStr = new ArrayList<Str>();
         for (int i = 1; i < strData.length; i++) {
             String[] strData2 = strData[i].split("\\.c");

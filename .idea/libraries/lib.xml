@@ -16,6 +16,7 @@
       <root url="jar://$PROJECT_DIR$/src/main/resources/lib/poi-ooxml-schemas-3.17-beta1.jar!/" />
       <root url="jar://$PROJECT_DIR$/src/main/resources/lib/poi-scratchpad-3.17-beta1.jar!/" />
       <root url="jar://$PROJECT_DIR$/src/main/resources/lib/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/sqlite-jdbc-3.7.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

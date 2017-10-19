@@ -11,7 +11,7 @@ public class JustTest1 {
          *
          * 测试List集合中存放Bean对象的排序
          */
-        List<JustBean> beanList = new ArrayList<>();
+        List<JustBean> beanList = new ArrayList<JustBean>();
         JustBean justBean = new JustBean();
         justBean.setLabelName("上访");
         justBean.setCaseNum(12);
