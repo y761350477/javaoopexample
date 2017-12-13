@@ -1,7 +1,7 @@
 package com.yc.enumclass;
 
 /**
- * 为什么使用美剧类型的例子
+ * 为什么使用枚举类型的例子
  *
  * @author YangChen
  * @create 2017-12-08 16:59

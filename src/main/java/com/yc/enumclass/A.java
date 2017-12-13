@@ -15,7 +15,7 @@ public class A {
     }
 
     static boolean isRed(EnumClass color) {
-        if (EnumClass.RED.equals(color)) {
+        if (EnumClass.RED == color) {
             return true;
         }
         return false;
