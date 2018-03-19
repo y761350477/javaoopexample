@@ -1,7 +1,5 @@
 package com.yc.date;
 
-import com.yc.string.Str;
-
 /**
  * 把"(数字)秒"转换为"天-时-分-秒"
  *
@@ -50,6 +48,7 @@ public class NumberToTime {
     }
 
     public static String unitFormat(int i) {
+        secToTime(10);
         String retStr = null;
         if (i >= 0 && i < 10) {
             retStr = "0" + Integer.toString(i);
@@ -66,4 +65,28 @@ public class NumberToTime {
         System.out.println(secToTime(1900045));
         System.out.println(unitFormat(121));
     }
+
+
+}
+
+class extract {
+
+    private int anInt;
+    private int anInt1;
+
+    public void method() {
+        anInt1 = 10;
+        int one = 1;
+        int two = 2;
+        int three = one + two;
+        int four = one + three;
+    }
+
+
+    public boolean test() {
+        return 10 > 10;
+    }
+
+
+
 }
